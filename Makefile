@@ -17,17 +17,22 @@ freeze-pip:
 	pip freeze > requirements.txt
 
 # ollama commands
+# run the llama3.2 model
 ollama-run:
 	ollama run llama3.2
 
+# list ollama models
 ollama-list:
 	ollama list
 
+# remove ollama model
 ollama-remove:
 	ollama rm llama3.2
 
+# pull ollama model
 ollama-pull:
 	ollama pull llama3.2
 
+# create ollama model assistant from Modelfile
 ollama-create:
 	ollama create james -f ./Modelfile
