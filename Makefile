@@ -1,4 +1,4 @@
-# virtual environment commands
+######################## virtual environment commands
 venv-create:
 	python3 -m venv .venv
 
@@ -8,7 +8,7 @@ venv-up:
 venv-down:
 	deactivate
 
-# python commands
+######################## python commands
 install-pip:
 	pip install --upgrade pip
 	pip install -r requirements.txt --upgrade
@@ -16,7 +16,7 @@ install-pip:
 freeze-pip:
 	pip freeze > requirements.txt
 
-# ollama commands
+######################## ollama commands
 # run the llama3.2 model
 ollama-run:
 	ollama run llama3.2
@@ -36,3 +36,10 @@ ollama-pull:
 # create ollama model assistant from Modelfile
 ollama-create:
 	ollama create james -f ./Modelfile
+
+# run the james assistant model
+ollama-run-james:
+	ollama run james
+
+ollama-curl:
+	curl http://localhost:11434/api/generate -d '{"model": "llama3.2", "prompt": "Write a poem about Ollama and Makefiles.", "stream": false, "max_tokens": 200, "temperature": 0.7}'
