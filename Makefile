@@ -1,9 +1,9 @@
 ######################## virtual environment commands
 venv-create:
-	python3 -m venv .venv
+	python3 -m venv venv
 
 venv-up:
-	source .venv/bin/activate
+	source venv/bin/activate
 
 venv-down:
 	deactivate

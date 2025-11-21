@@ -1,0 +1,42 @@
+Here is the categorized and sorted grocery list:
+
+**Produce:**
+• Apples
+• Bananas
+• Broccoli
+• Carrots
+• Oranges (not explicitly mentioned, but assumed to be part of the orange juice)
+• Spinach
+
+**Dairy:**
+• Butter
+• Cheese
+• Eggs
+• Milk
+• Yogurt
+
+**Meat:**
+• Chicken Breast
+• Ground Beef
+• Salmon
+
+**Bakery:**
+• Bread
+• Cereal
+
+**Frozen:**
+ None (no frozen items mentioned in the list)
+
+**Beverages:**
+• Orange Juice
+
+**Snacks:**
+ None (no snack items mentioned in the list, but some of these could be considered snacks, e.g., yogurt, cheese)
+
+**Household Items:**
+ None (no household items mentioned in the list)
+
+**Other:**
+• Pasta
+• Rice
+• Tomatoes
